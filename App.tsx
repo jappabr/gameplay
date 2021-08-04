@@ -6,7 +6,7 @@ import AppLoading from 'expo-app-loading';
 import { useFonts } from 'expo-font';
 
 import { Background } from './src/components/Background';
-import { Home } from './src/screens/Home';
+import { Routes } from './src/routes';
 
 export default function App(){
   const [fontsLoaded] = useFonts({
@@ -27,7 +27,7 @@ export default function App(){
         backgroundColor="transparent"
         translucent
       />
-      <Home/>
+      <Routes/>
     </Background>
   );
 }
