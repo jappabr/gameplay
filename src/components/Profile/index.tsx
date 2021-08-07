@@ -1,28 +1,32 @@
-import React from "react";
-import { View, Text } from "react-native";
+import React from 'react';
+import { View, Text } from 'react-native';
 
-import { Avatar } from "../Avatar";
-import { styles } from "./styles";
+import { Avatar } from '../Avatar';
+import { styles } from './styles';
 
-export function Profile(){
-    return(
-        <View style={styles.container}>
-            <Avatar urlImage="https://github.com/jappabr.png"/>
-            <View>
-                <View style={styles.user}>
-                    <Text style={styles.greeting}>
-                        Olá,
-                    </Text>
+export function Profile() {
+  return (
+    <View style={styles.container}>
 
-                    <Text style={styles.username}>
-                        JappaBR
-                    </Text>
-                </View>
+      <Avatar urlImage="https://github.com/rodrigorgtic.png"/>
 
-                <Text style={styles.message}>
-                    Hoje é dia de vitória!
-                </Text>
-            </View>
+      <View>
+        <View style={styles.user}>
+          <Text style={styles.greeting}>
+            Olá,
+          </Text>
+          
+          <Text style={styles.username}>
+            Rodrigo
+          </Text>
         </View>
-    )
+
+        <Text style={styles.message}>
+          Hoje é dia de vitória
+        </Text>
+      </View>
+
+    </View>
+  )
+
 }
