@@ -9,8 +9,7 @@ import { useNavigation } from '@react-navigation/native';
 import IllustrationImg from '../../assets/illustration.png';
 import { styles } from './styles';
 
-import { ButtonIcon } from "../../components/buttonIcon";
-
+import { ButtonIcon } from '../../components/ButtonIcon';
 
 export function SignIn(){
   const navigation = useNavigation();
